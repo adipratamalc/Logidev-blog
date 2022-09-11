@@ -1,5 +1,5 @@
 import AuthLogo from './extensions/logidev-icon.png';
-import MenuLogo from './extensions/logidev-logo.png';
+import MenuLogo from './extensions/logidev-icon.png';
 import favicon from './extensions/logidev-icon.svg';
 
 const config = {
@@ -19,21 +19,22 @@ const config = {
      'id',
   ],
   // Override or extend the theme
-  theme: {
-    colors: {
-      primary100: '#f6ecfc',
-      primary200: '#e0c1f4',
-      primary500: '#ac73e6',
-      primary600: '#9736e8',
-      primary700: '#8312d1',
-      danger700: '#b72b1a'
-    },
-  },
+  // theme: {
+  //   colors: {
+  //     primary100: '#f6ecfc',
+  //     primary200: '#e0c1f4',
+  //     primary500: '#ac73e6',
+  //     primary600: '#9736e8',
+  //     primary700: '#8312d1',
+  //     danger700: '#b72b1a'
+  //   },
+  // },
   // Extend the translations(note: change text for each language in admin panel)
   translations: {
     en: {
       "Auth.form.welcome.subtitle": "Log in to your Logidev account",
       "Auth.form.welcome.title": "Welcome to Logidev!",
+      "app.components.LeftMenu.navbrand.title": "Logidev Dashboard",
     },
   },
  // Disable video tutorials
